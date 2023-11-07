@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+ nav {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.632);
+    display: flex;
+    text-align: center;
+}
+
+.menu-btn {
+    cursor: pointer;
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+ ul {
+     list-style: none;
+     padding: 0;
+     display: flex;
+     gap: 20px;
+     flex: 3;
+     margin-left: 20%;
+}
+
+li {
+    padding: 10px;
+    letter-spacing: 3px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.575);
+    font-weight: 600;
+}
+
+.icon1 {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    font-size: 1.4rem;
+    justify-content: end;
+    margin-right: 2%;
+}
+
+.container {
+    padding: 20px;
+    min-height: 80vh;
+    background:linear-gradient(315deg, #00000025, rgba(0, 0, 0, 0.224)00), url('https://res.cloudinary.com/dpyacehve/image/upload/v1699352594/eilumasmqh87ow6bjppr.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.container-text {
+    max-width: 35%;
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.container-text-text1 {
+    background-color: rgba(239, 118, 120, 0.549);
+    padding: 30px 10px;
+    color: #fff;
+}
+
+.container-heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.food-order {
+    background: linear-gradient(45deg, rgb(253, 104, 191), #ffe14a);
+    min-height: 80vh;
+    padding: 60px 10px;
+    margin: 0%;
+}
+.division {
+    min-height: 4px;
+    background: #ffffff;
+    margin: 0%;
+    
+}
+
+.order {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+
+}
+
+.card {
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card-item {
+    min-width: 200px;
+    max-width: 280px;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 50px 0 50px;
+}
+
+.card-item img {
+    height: 270px;
+    width: 100%;
+    border-radius: 0 50px 0 0;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 100px;
+    border: none;
+    background-color: rgba(215, 211, 211, 0.548);
+    font-weight: bold;
+    min-width: 150px;
+    margin-top: 30px;
+    cursor: pointer;
+}
